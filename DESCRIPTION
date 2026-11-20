@@ -1,16 +1,16 @@
-Package: rpkg.template
-Title: What the Package Does (One Line, Title Case)
-Version: 0.1.0.9000
+Package: RHbreak
+Title: Piecewise Regression and De-Seasonalization Tools
+Version: 0.1.0
 Authors@R: c(
-  person("Dongdong", "Kong", role = c("aut", "cre"), 
-         email = "kongdd.sysu@gmail.com", comment = c(ORCID = "0000-0003-1836-8172")))
-Description: What the package does (one paragraph).
+  person("Tangmj", role = c("aut", "cre"), email = "3232036033@qq.com"))
+Description: Minimal tools for time series preprocessing and change point
+    analysis: removing the seasonal cycle by calendar day, and fitting
+    piecewise linear regressions with one or multiple breakpoints sharing
+    a common slope.
 License: MIT + file LICENSE
-Imports:
-    magrittr
-Suggests: 
+Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-Config/roxygen2/version: 8.1.0
+Config/roxygen2/version: 8.1.1

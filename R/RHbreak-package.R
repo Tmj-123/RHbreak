@@ -1,4 +1,4 @@
-#' @import magrittr
+#' @importFrom stats .lm.fit
 #' @keywords internal
 "_PACKAGE"
 
@@ -8,8 +8,6 @@ NULL
 
 .onLoad <- function(libname, pkgname) {
   if (getRversion() >= "2.15.1") {
-    utils::globalVariables(
-      c(".", ".SD", ".N")
-    )
+    utils::globalVariables(c(".", ".SD", ".N"))
   }
 }
